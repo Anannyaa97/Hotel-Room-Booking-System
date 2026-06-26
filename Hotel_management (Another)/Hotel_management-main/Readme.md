@@ -4,6 +4,7 @@ javac -cp src/lib/mysql-connector-j-9.4.0.jar -d out $(find src -name "*.java")
 java -cp out:src/lib/mysql-connector-j-9.4.0.jar Main
 ## step 3
 For Owner
-(username = owner)
 
-(password = ownerpass)
+username = owner
+
+password = ownerpass 
